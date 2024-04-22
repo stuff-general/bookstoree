@@ -1,0 +1,66 @@
+
+body{
+    background-image: url("photuss/login_bg.jpeg");
+}
+*{
+    color: white;
+    font-family: candara;
+    margin: 0;
+    padding: 0;
+    
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px;
+}
+.book {
+  border:none;
+  padding: 20px;
+  text-align: center;
+}
+.book img {
+  max-width: 100%;
+  height: auto;
+}
+.book-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+p{
+    color: white;
+}
+.price {
+  color: aqua;
+}
+
+
+.heading {
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+   
+    background-size: cover;
+    text-align: center;
+}
+
+.bg-img {
+    background-image: url("images/leaves.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: contain ;
+}
+.img1{
+    height: 180px;
+    width: 280px;
+}
+img{
+    height: 180px;
+    width: 280px;
+}

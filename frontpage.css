@@ -1,0 +1,46 @@
+
+body{
+    background-image: url("photuss/main_bg.jpeg");
+}
+.heading {
+    font-size: 320%;
+    font-weight: 800;
+    font-family: 'Truculenta';
+    color: rgb(238, 245, 95);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    background-size: cover;
+    border-radius: 20px;
+    margin:  8px;
+    text-align: center;
+
+}
+
+.bg-img {
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain ;
+}
+
+
+.row {
+    flex: 33.33%;
+    padding: 20px;
+    color: white;
+    font-size: 150%;
+    font-family: 'Truculenta';
+    display:block;
+  }
+  
+  .column {
+    display: flex;
+  }
+.image{
+    border-radius: 20px;
+    border: 3px solid rgba(60, 102, 139, 0.7);
+    box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.5);
+}
